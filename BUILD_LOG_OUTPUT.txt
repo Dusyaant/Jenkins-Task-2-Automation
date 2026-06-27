@@ -1,0 +1,30 @@
+Started by user admin
+Running as SYSTEM
+Building in workspace /var/lib/jenkins/workspace/GitHub-Automation-Task
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/GitHub-Automation-Task/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/Dusyaant/Jenkins-Task-2-Automation # timeout=10
+Fetching upstream changes from https://github.com/Dusyaant/Jenkins-Task-2-Automation
+ > git --version # timeout=10
+ > git --version # 'git version 2.43.0'
+ > git fetch --tags --force --progress -- https://github.com/Dusyaant/Jenkins-Task-2-Automation +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/main^{commit} # timeout=10
+Checking out Revision f9f27589014e2cccea28ee4e4b37dde11cf46917 (refs/remotes/origin/main)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f f9f27589014e2cccea28ee4e4b37dde11cf46917 # timeout=10
+Commit message: "Update build_test.sh"
+First time build. Skipping changelog.
+[GitHub-Automation-Task] $ /bin/sh -xe /tmp/jenkins3673047235427600109.sh
++ bash build_test.sh
+🚀 Initiating Automated Build Process...
+----------------------------------------
+✅ Server Connection: SUCCESS
+✅ GitHub Webhook Trigger: SUCCESS
+✅ Script Execution: SUCCESS
+----------------------------------------
+🎉 Task 2 Pipeline is fully operational!
+Triggered by a commit!
+Sending e-mails to: gamerdusyaantb2k@gmail.com
+Finished: SUCCESS
